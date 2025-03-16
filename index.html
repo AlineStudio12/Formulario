@@ -1,0 +1,96 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Anamnese</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="src/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="texto1">
+            <h2>Ficha de Anamnese</h2>
+            <p>Design de sobrancelhas, coloração ou henna</p>
+        </div>
+        <form action="https://formsubmit.co/alinesantana.studio@gmail.com" method="POST">
+            
+            <h3 class="Dados">Dados Pessoais</h3>
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Seu nome"required>
+            
+            <label>Data de Nascimento:</label>
+            <input type="date" name="data_nascimento" required>
+            
+            <label>Endereço:</label>
+            <input type="text" name="endereco" placeholder="Seu Endereço">
+            
+            <label>Contato:</label>
+            <input type="text" name="contato" placeholder="Seu número de celular" required>
+            
+            <h3 class="Dados">Informações Pessoais</h3>
+            <div class="question">
+                <p>Já apresentou alergia a algum cosmético?</p>
+                <label><input type="checkbox" name="alergia_cosmetico" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="alergia_cosmetico" value="Não" class="exclusive"> Não</label>
+            </div>
+            
+            <div class="question">
+                <p>Possui alergia a algum componente químico?</p>
+                <label><input type="checkbox" name="alergia_quimico" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="alergia_quimico" value="Não" class="exclusive"> Não</label>
+            </div>
+            
+            <div class="question">
+                <p>Alopécia?</p>
+                <label><input type="checkbox" name="alopecia" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="alopecia" value="Não" class="exclusive"> Não</label>
+            </div>
+
+            <div class="question">
+                <p>Rosácea?</p>
+                <label><input type="checkbox" name="Rosácea?" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="Rosácea?" value="Não" class="exclusive"> Não</label>
+            </div>
+
+            <div class="question">
+                <p>Faz uso de algum acido ou peeling quimímico?</p>
+                <label><input type="checkbox" name="acido" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="acido" value="Não" class="exclusive"> Não</label>
+            </div>
+
+            <div class="question">
+                <p>Tratamento quimioterápico?</p>
+                <label><input type="checkbox" name="quimioterápico" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="quimioterápico" value="Não" class="exclusive"> Não</label>
+            </div>
+
+            
+            <div class="question">
+                <p>Faz uso de roacutan?</p>
+                <label><input type="checkbox" name="roacutan" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="roacutan" value="Não" class="exclusive"> Não</label>
+            </div>
+            
+            
+            <div class="question">
+                <p>Está grávida ou amamentando?</p>
+                <label><input type="checkbox" name="amamentando" value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="amamentando" value="Não" class="exclusive"> Não</label>
+            </div>
+
+            
+            <div class="question">
+                <p>Possui alergia a cera depilatoria?</p>
+                <label><input type="checkbox" name="alergia a cera " value="Sim" class="exclusive"> Sim</label>
+                <label><input type="checkbox" name="alergia a cera " value="Não" class="exclusive"> Não</label>
+            </div>
+
+            <h3 class="Dados">Autorização</h3>
+            <p>Autorizo o uso de imagem fotográfica de antes e depois para documentos e divulgação profissional.</p>
+            
+            <label>Assinatura:</label>
+            <input type="text" name="assinatura" placeholder="Digite seu nome" required>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
